@@ -79,7 +79,7 @@ const connectToWhatsApp = async () => {
             printQRInTerminal: true,
             logger: logg({ level: 'fatal' }),
             auth: state,
-            browser: ["Hinata Hyuga Multi Device", "Safari", "3.0"]
+            browser: ["Hinata Hyuga By Yamato", "Safari", "3.0"]
         })
 	title()
         store.bind(conn.ev)
